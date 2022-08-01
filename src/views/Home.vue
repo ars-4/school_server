@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+
+  <div class="dashboard">
+    <div class="titlebar">
+      <h1>Dashboard</h1>
+    </div>
+
+
   </div>
+
 </template>
 
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class Home extends Vue {}
-</script>
+<style>
+.dashboard .titlebar {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.dashboard .titlebar h1 {
+  color: #fff;
+  margin-left: 30px;
+}
+</style>
