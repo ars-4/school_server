@@ -4,5 +4,7 @@
 *.bat linguist-detectable=false
 *.conf linguist-detectable=false
 *.logs linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
 *.vue linguist-detectable=true
 *.ts linguist-detectable=true
