@@ -1,0 +1,8 @@
+*.vim linguist-detectable=false
+*.lua linguist-detectable=false
+*.exe linguist-detectable=false
+*.bat linguist-detectable=false
+*.conf linguist-detectable=false
+*.logs linguist-detectable=false
+*.vue linguist-detectable=true
+*.ts linguist-detectable=true
